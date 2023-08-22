@@ -1,0 +1,1377 @@
+@import url('https://fonts.cdnfonts.com/css/nats');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+}
+
+body{
+    width: 1366px;
+    height: 5359px;
+    background: #A1DDFF;
+}
+
+header{
+    width: 1366px;
+    height: 104px;
+    background: #A1DDFF;
+    display: flex;
+    align-items: center;
+}
+
+.headerLogoWraper{
+    width: auto;
+    height: auto;
+}
+
+.headerLogo{
+    color: #000;
+    font-family: NATS;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    margin-left: 34px;
+}
+
+.headerSlogan{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 34px;
+}
+
+.headerNavigation{
+    display: flex;
+    width: 520px;
+    align-items: center;
+    gap: 50px;
+    margin-left: 582px;
+}
+
+.headerNavigationItems{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.startPage{
+    width: 1366px;
+    height: 498px;
+    background: #FFF7EB;
+    display: flex;
+}
+
+.startPageImage{
+    width: 788.067px;
+    height: 501px;
+    margin-top: -3px;
+}
+
+.startPageWrapper{
+    width: auto;
+    height: auto;
+    margin-top: 145.5px;
+    margin-left: 58px;
+}
+
+.startPageText{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.startPageButton{
+    width: 253px;
+    height: 65px;
+    border-radius: 40px;
+    border: 2px solid #00A3FF;
+    background: #A1DDFF;
+    display: inline-flex;
+    padding: 18px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 40px;
+    margin-left: 157px;
+}
+
+#aboutAs{
+    width: 1366px;
+    height: 1884px;
+}
+
+#ourOffers{
+    width: 1366px;
+    height: 1411px;
+    margin-top: 80.28px;
+}
+
+.ourOffersText{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    padding-top: 76px;
+}
+
+.aboutAsText{
+    width: auto;
+    height: auto;
+    margin-top: 55px;
+    margin-left: 347px;
+    display: flex;
+    align-items: center;
+}
+
+.aboutAsText1{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+.aboutAsText2{
+    color: #000;
+    font-family: NATS;
+    font-size: 60.343px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60.343px;
+    padding-left:29px;
+    padding-right: 29px;
+}
+
+.aboutAsText3{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48pxs;
+}
+
+.aboutAsWrappers{
+    width: 1366px;
+    height: 520px;
+    display: flex;
+}
+.aboutAsWrapperNicePrice{
+    width: 1366px;
+    height: 620px;
+    display: flex;
+}
+
+.wideRange{ 
+    width: 652px;
+    height: 207px;
+    transform: skew(-13deg);
+    background: #FFF7EB;
+    margin-top:240px ;
+    margin-left: 69px;
+}
+
+.nicePrice{
+    width: 652px;
+    height: 207px;
+    transform: skew(-13deg);
+    background: #FFF7EB;
+    margin-top:295.95px ;
+    margin-left: 69px;
+}
+
+.paidInsurance{
+    width: 652px;
+    height: 207px;
+    transform: skew(-13deg);
+    background: #FFF7EB;
+    margin-top:328.12px ;
+    margin-left: 69px;
+}
+
+.paidInsuranceText1{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 48px;
+}
+
+.paidInsuranceText2{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 48px;
+}
+
+.nicePriceText1{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 48px;
+}
+
+.nicePriceText2{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 30px;    
+}
+
+.wideRangeText1{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 30px;
+}
+
+.wideRangeText2{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 30px;
+}
+
+.wideRangeText3{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 6px;
+}
+
+.wideRangeItemFirst{
+    width: 164px;
+    height: 164px;
+    border-radius: 30px;
+    background: #E9E1D4;
+    position: absolute;
+    margin-left: 782.15px;
+    margin-top: 164px;
+}
+
+.wideRangeItemSecond{
+    width: 164px;
+    height: 164px;
+    border-radius: 30px;
+    background: #E9E1D4;
+    position: absolute;
+    margin-left: 1052px;
+    margin-top: 150.06px;
+}
+
+.wideRangeItemsImageKiaRio{
+    height: 115px;
+}
+
+.wideRangeItemsImageVolkswagenArteon{
+    width: 165px;
+    /*height: 114.3px;*/
+    margin-top: -1px;
+}
+
+.wideRangeItemsImageHyundaiSolaris{
+    margin-top: -1px;
+    margin-left: -1px;
+}
+
+.wideRangeItemsImageBmwM3{
+    width: 100%;
+    height: 115px;
+}
+
+.wideRangeItemsImageVolkswagenPolo{
+    margin-top: -1px;
+    margin-left: -1px;
+}
+
+.kiaRioText{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16.01px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.01px;
+    margin-top: 12px;
+}
+
+.kiaRio{
+    transform: rotate(0deg);
+}
+
+.volkswagenArteon{
+    transform: rotate(-5.544deg);
+}
+
+.volkswagenArteonText{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16.007px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.007px;
+    width: 98.71px;
+    height: 36.683px;
+    margin-left: 36.05px;
+    margin-top: 4px;
+}
+
+.wideRangeItemThirst{
+    width: 164px;
+    height: 164px;
+    border-radius: 30px;
+    background: #E9E1D4;
+    position: absolute;
+    margin-left: 761px;
+    margin-top: 350px;
+    margin-right: 437px;
+}
+
+.hyundaiSolarisText{
+    width: 87.537px;
+    height: 39.13px;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16.01px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.01px;
+    margin-left: 38px;
+    margin-top: 3px;
+}
+
+.wideRangeItemFourth{
+    width: 164px;
+    height: 164px;
+    border-radius: 30px;
+    background: #E9E1D4;
+    position: absolute;
+    margin-left: 917px;
+    margin-top: 279px;    
+}
+
+.bmwM3Text{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16.01px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.01px;
+    margin-top: 12px;
+}
+
+
+.hyundaiSolaris{
+    transform: rotate(-3.104deg);
+}
+
+.bmwM3{
+    transform: rotate(0deg);
+}
+
+.wideRangeItemFifth{
+    width: 164px;
+    height: 164px;
+    border-radius: 30px;
+    background: #E9E1D4;
+    position: absolute;
+    margin-left: 1068px;  
+    margin-top: 336.07px;  
+}
+
+.volkswagenPoloText{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16.01px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.01px;
+    width: 104.773px;
+    height: 37.318px;
+    margin-left: 31.05px;
+    margin-top: 4px;
+}
+
+.volkswagenPolo{
+    transform: rotate(4.86deg);
+}
+
+.discount5Percent{
+    width: 257.767px;
+    height: 143px;
+    border-radius: 10px;
+    border: 0.367px solid #000;
+    background: #B9E6FF;
+    margin-top: 371.95px;
+    margin-left: 777px;
+    align-items: center;
+    transform: skewY(30deg);
+    position: absolute;
+
+}
+
+.discount10Percent{
+    width: 257.767px;
+    height: 143px;
+    border-radius: 10px;
+    border: 0.367px solid #000;
+    background: #58C3FF;
+    margin-top: 320.95px ;
+    margin-left: 911px;
+    align-items: center;
+    transform: skewY(30deg);
+    position: absolute;
+}
+.discount15Percent{
+    width: 257.767px;
+    height: 143px;
+    border-radius: 10px;
+    border: 0.367px solid #000;
+    background: #0096EA;
+    margin-top: 269.19px;
+    margin-left: 1038px;
+    align-items: center;
+    transform: skewY(30deg);
+    position: absolute;
+}
+
+
+
+.discount5PercentLogo{
+    color: #000;
+    font-family: NATS;
+    font-size: 41.76px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 41.76px;
+    margin-top: 30px;
+    margin-left: 70px;
+
+}
+
+.discount10PercentLogo{
+    color: #000;
+    font-family: NATS;
+    font-size: 41.76px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 41.76px;
+    margin-top: 30px;
+    margin-left: 70px;
+
+}
+
+.discount15PercentLogo{
+    color: #000;
+    font-family: NATS;
+    font-size: 41.76px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 41.76px;
+    margin-top: 30px;
+    margin-left: 70px;
+
+}
+
+.discount5PercentText{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24.303px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.303px;
+    margin-top: 15px;
+}
+
+.discount10PercentText{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24.303px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.303px;
+    margin-top: 15px;
+}
+
+.discount15PercentText{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24.303px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.303px;
+    margin-top: 15px;
+}
+
+.paidInsuranceImage1{
+    width: 330px;
+    height: 231px;
+    transform: rotate(-11.275deg);
+    position: absolute;
+    margin-top: 211.12px;
+    margin-left: 777px;
+}
+
+.paidInsuranceImage2{
+    width: 330px;
+    height: 231px;
+    transform: rotate(10.388deg);
+    position: absolute;
+    margin-top: 428.12px;
+    margin-left: 920px;
+}
+
+.economyClass{
+    width: 1069px;
+    height: 485px;
+    margin-top: 91px;
+    margin-left: 117px;
+    display: flex;
+}
+
+.businessClass{
+    width: 1069px;
+    height: 485px;
+    margin-top: 69.74px;
+    margin-left: 117px;
+    display: flex;
+}
+
+.carsBackground{
+    width: 342.605px;
+    height: 485.259px;
+    border-radius: 62.723px;
+    background: #E9E1D4;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+
+.imagesForOurOffers{
+    width: 100%;
+    /* height: 236.26px; */
+}
+
+.textModelOfCar{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 21.74px;
+}
+
+.classCar{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 16px;
+}
+
+.priceCar{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 16px;
+}
+
+.buttonForVolkswagenPolo{
+    display: flex;
+    width: 194px;
+    height: 55px;
+    padding: 18px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    border: 1px solid #33B5FF;
+    background: #A1DDFF;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 45px;
+    margin-left: 69px;
+}
+
+.buttonForKiaRio{
+    display: flex;
+    width: 194px;
+    height: 55px;
+    padding: 18px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    border: 1px solid #33B5FF;
+    background: #A1DDFF;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 45px;
+    margin-left: 69px;
+}
+
+.buttonForHyundaiSolaris{
+    display: flex;
+    width: 194px;
+    height: 55px;
+    padding: 18px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    border: 1px solid #33B5FF;
+    background: #A1DDFF;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 45px;
+    margin-left: 69px;
+}
+
+.carsWrapper{
+    width: 1109px;
+    height: 1120.26px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 91px;
+    margin-left: 117px;
+}
+
+.buttonForCars{
+    display: flex;
+    width: 194px;
+    height: 55px;
+    padding: 18px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    border: 1px solid #33B5FF;
+    background: #A1DDFF;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 45px;
+    margin-left: 69px;
+}
+
+.buttonForBmwM3{
+    display: flex;
+    width: 194px;
+    height: 55px;
+    padding: 18px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    border: 1px solid #33B5FF;
+    background: #A1DDFF;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 45px;
+    margin-left: 69px;
+}
+
+.buttonForMercedesC63S{
+    display: flex;
+    width: 194px;
+    height: 55px;
+    padding: 18px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    border: 1px solid #33B5FF;
+    background: #A1DDFF;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 45px;
+    margin-left: 69px;
+}
+
+#rentalConditions{
+    width: 1366px;
+    height: 1177px;
+}
+
+.rentalConditionsText{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    padding-top: 57px;
+}
+
+.documentsWrapper{
+    width: auto;
+    height: auto;
+    margin-top: 92px;
+    margin-left: 112px;
+}
+
+.documents{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 23.058px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.058px;
+}
+
+.treaty{
+    width: 1107px;
+    height: 117px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 23.058px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23,058px;
+    margin-top: 92px;
+    margin-left: 112px;
+}
+
+.popUp {
+    width: 1109px;
+    height: 926px;
+    border-radius: 50px;
+    background: #E9E1D4;
+    position: fixed;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 0.5s, top 0.5s;
+}
+
+.popUp.show {
+    opacity: 1;
+    top: 50%;
+}
+
+.closeButton {
+    width: 71px;
+    height: 72px;
+    background: #A1DDFF;
+    border-radius: 35.5px;
+    position: absolute;
+    border: none;
+    margin-left: 1063px;
+    margin-top: -30px;
+    font-family: ui-monospace;
+    font-size: 82px;
+    line-height: 72px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+  
+  .popUp.hide {
+    opacity: 0;
+    top: -30%;
+  }
+
+.buttonForCars:hover + .popUp {
+    opacity: 1;
+    top: 50%;
+}
+
+
+.кentalRestrictionWrapper{
+    width: 889px;
+    height: auto;
+    margin-top: 68px;
+    margin-left: 112px;
+}
+
+.notification{
+    width: 314px;
+    height: 93px;
+    border-radius: 19px;
+}
+
+.кentalRestriction{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 23.058px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.058px;
+}
+
+.pickUpACar{
+    width: 1144px;
+    height: auto;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 23.058px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.058px;
+    margin-top: 92px;
+    margin-left: 112px;
+}
+
+.delivery{
+    width: 1144px;
+    height: auto;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 23.058px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.058px;
+    margin-top: 92px;
+    margin-left: 112px;
+
+}
+
+footer{
+    width: 1366px;
+    height: 277px;
+    border-top: 1px solid #000;
+    background: #A1DDFF;
+    display: flex;
+}
+
+.footerLogo{
+    width: 133.906px;
+    height: 48px;
+    color: #000;
+    font-family: NATS;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    margin-left: 49px;
+    margin-top: 29px;
+}
+
+.copyright{
+    width: 282px;
+    height: 23px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    margin-left: 49px;
+    margin-top: 152px;
+}
+
+.contacts{
+    width: 139px;
+    height: 28px;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-left: 268px;
+    margin-top: 42px;
+}
+
+.address{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 32px;
+    margin-left: 158px;
+}
+
+.footerLogoCopyright{
+    width: 332px;
+    height: auto;
+}
+
+.footerContacts{
+    width: auto;
+    height: auto;
+}
+
+.emailWrapper{
+    width: 272px;
+    height: auto;
+    margin-top: 7px;
+    margin-left: 158px;
+    display: flex;
+}
+
+.emailWrapperText{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.email{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.phoneNumberWrapperText{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.tel{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.phoneNumberWrapper{
+    width: 292px;
+    height: auto;
+    margin-top: 7px;
+    margin-left: 158px;
+    display: flex;
+}
+
+iframe{
+    border-radius: 30px;
+    margin-top: 23px;
+    margin-left: 139px;
+}
+
+.booking{
+    width: 1109px;
+    height: 926px;
+    border-radius: 50px;
+    background: #E9E1D4;
+}
+
+.imageForBooking{
+    width: 499px;
+    height: 364px;
+    margin-left: 24px;
+    margin-top: -23px;
+    
+}
+
+/* .required{
+    color: #F00;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 5px;
+} */
+
+
+.car{
+    width: 419px;
+    height: 174px;
+    margin-top: 36px;
+    margin-left: 83px;
+}
+
+.carModel{
+    color: #000;
+    font-family: NATS;
+    font-size: 66.97px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 66.97px;
+    
+}
+
+.classType{
+    width: 160px;
+    height: 22px;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 55px;
+}
+
+.clip{
+    width: 26.202px;
+    height: 90.67px;
+    transform: rotate(168.28deg);
+    position: absolute;
+    stroke-width: 3px;
+    stroke: #4CBEFF;
+    margin-left: 95.45px;
+    margin-top: -24px;
+}
+
+form{
+    width: 1109px;
+    height: 241px;
+    margin-top: 55px;
+    color: #000;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 400;
+    
+    
+}
+
+.bookingCar{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.filling{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    margin-top: 21px;
+}
+
+.overTheForm{
+    width: 1001px;
+    height: 364px;
+    margin-left: 24px;
+    display: flex;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1;
+    position: fixed;
+    bottom: -100%; 
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+
+
+.input{
+    width: 418px;
+    height: 28px;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background-color: transparent;
+    outline: none;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 65px;
+    margin-right: 13px;
+    margin-left: 98px;
+}
+
+.input2{
+    width: 418px;
+    height: 28px;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background-color: transparent;
+    outline: none;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 65px;
+    margin-right: 20px;
+}
+
+.input3{
+    width: 418px;
+    height: 28px;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background-color: transparent;
+    outline: none;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 65px;
+    margin-right: 20px;
+}
+
+
+
+
+::placeholder{
+    color: #000;
+
+}
+
+.input::placeholder::after{
+    content: "*";
+    color: red;
+}
+
+
+
+.inputsForForm{
+    width: 100%;
+    height: 128px;
+    margin-top: 36px;
+}
+
+.addressIssue{
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding-bottom: 5px;
+    background-color: transparent;
+    outline: none;
+    width: auto;
+    height: auto;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 98px;
+}
+
+select{
+    margin-left: 25px;
+    margin-right: 32px;
+    background: none;
+    border: none;
+    -webkit-appearance: none;
+	-moz-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+    background-image: url("./img/select.svg");
+	background-position: 98% center;
+	background-repeat: no-repeat;
+	outline: none;
+}
+
+option{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 20px;
+    
+}
+
+.info{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    margin-left: 172px;
+    margin-top: 95px;
+    margin-right: 111px;
+}
+
+.buttonForBooking{
+    display: flex;
+    width: 194px;
+    height: 55px;
+    padding: 18px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    border: 1px solid #626262;
+    background: #B6B6B6;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 48px;
+    margin-left: 467px;
+}
+
+.notificationBackground{
+    width: 559.178px;
+    height: 130px;
+    flex-shrink: 0;
+    border-radius: 20px 20px 20px 0px;
+    background: #FFF7EB;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    transition: opacity 0.5s ease-in-out;
+    
+}
+
+
+.notificationText1{
+    color: #000;
+    width: 440px;
+    height: 25px;
+    font-family: Montserrat;
+    font-size: 17.808px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17.808px;
+    margin-top: 30px;
+    margin-left: 85px;
+}
+
+.notificationText2{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14.247px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 23px;
+    margin-left: 156px;
+}
+

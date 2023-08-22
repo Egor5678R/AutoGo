@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AutoGo</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="headerLogoWrapper">
+            <h1 class="headerLogo">AutoGo</h1>
+            <h2 class="headerSlogan">Всегда вовемя</h2>
+        </div>
+        <nav class="headerNavigation">
+            <a href = "#aboutAs" class="headerNavigationItems aboutUs">О нас</a>
+            <a href = "#ourOffers" class="headerNavigationItems ">Наши авто</a>
+            <a href = "#rentalConditions" class="headerNavigationItems">Условия проката</a>
+        </nav>
+    </header>
+    <main>
+        <section class="startPage">
+            <div class="startPageWrapper">
+                <h2 class="startPageText">Автомобили для комфортных поездок на любой вкус</h2>
+                <button class="startPageButton" onclick="document.location='#ourOffers'">Выбрать авто</button>
+            </div>
+            <img src="./img/startPageImage.svg" alt="startPageImage" class="startPageImage">
+        </section>
+        <section id="aboutAs">
+            <div class="aboutAsText">
+                <h2 class="aboutAsText1">Aренда авто в</h2>
+                <h3 class="aboutAsText2" >AutoGo</h3>
+                <h4 class="aboutAsText3" >это:</h4>
+            </div>
+            <div class = "aboutAsWrappers">
+                <div class="wideRange">
+                    <h2 class="wideRangeText1">Широкий выбор</h2>
+                    <h3 class="wideRangeText2">Автомобили на любой вкус и кошелек</h3>
+                    <h4 class="wideRangeText3">от самых бюджетных до бизнес класса</h4>
+                </div>
+                <div class="wideRangeItemFirst kiaRio">
+                    <img src="./img/smallImageKiaRio.svg" alt="kiaRio" class="wideRangeItemsImageKiaRio">
+                    <h2 class="kiaRioText">Kia Rio</h2>
+                </div>
+                <div class="wideRangeItemSecond volkswagenArteon">
+                    <img src="./img/smallImageVolksvagenArteon.svg" alt="volkswagenArteon" class="wideRangeItemsImageVolkswagenArteon">
+                    <h2 class="volkswagenArteonText">Volkswagen Arteon</h2>
+                </div>
+                <div class="wideRangeItemThirst hyundaiSolaris">
+                    <img src="./img/smallImageHyundaiSolaris.svg" alt="hyundaiSolaris" class="wideRangeItemsImageHyundaiSolaris">
+                    <h2 class="hyundaiSolarisText">Hyundai Solaris</h2>
+                </div>
+                
+                <div class="wideRangeItemFifth volkswagenPolo">
+                    <img src="./img/smallImageVolksvagenPolo.svg" alt="volkswagenPolo" class="wideRangeItemsImageVolkswagenPolo">
+                    <h2 class="volkswagenPoloText">Volkswagen Polo</h2>
+                </div>
+                <div class="wideRangeItemFourth bmwM3">
+                    <img src="./img/smallImageBMW_M3.svg" alt="bmwM3" class="wideRangeItemsImageBmwM3">
+                    <h2 class="bmwM3Text">BMW M3</h2>
+                </div>
+            </div>
+            <div class = "aboutAsWrapperNicePrice">
+                <div class="nicePrice">
+                    <h2 class="nicePriceText1">Приятные цены.</h2>
+                    <h3 class="nicePriceText2">и система скидок постоянным клиентам</h3>
+                </div>
+                <div class="discount15Percent">
+                    <h2 class="discount15PercentLogo">AutoGo</h2>
+                    <h3 class="discount15PercentText">Скидка 15%</h3>
+                </div>
+                <div class="discount10Percent">
+                    <h2 class="discount10PercentLogo">AutoGo</h2>
+                    <h3 class="discount10PercentText">Скидка 10%</h3>
+                </div>
+                <div class="discount5Percent">
+                    <h2 class="discount5PercentLogo">AutoGo</h2>
+                    <h3 class="discount5PercentText">Скидка 5%</h3>
+                </div>
+
+            </div>
+            <div class = "aboutAsWrappers">
+                <div class="paidInsurance">
+                    <h2 class="paidInsuranceText1">Оплаченная страховка.</h2>
+                    <h3 class="paidInsuranceText2">Наслаждайтесь поездкой и не платите за повреждения авто</h3>
+                </div>
+                <img src="./img/paidInsuranceImage1.svg" alt="paidInsuranceImages" class="paidInsuranceImage2">
+                <img src="./img/paidInsuranceImage2.svg" alt="paidInsuranceImages" class="paidInsuranceImage1">
+            </div>
+        </section>
+        <section id="ourOffers">
+            <h2 class="ourOffersText">Уже сейчас мы предлагаем:</h2>
+            <div class="carsWrapper"></div>
+            
+            <!-- <div class="economyClass">
+                <div class="carsBackground">
+                    <img src="./img/middleImageVolkswagenPolo.svg" alt="volkswagenPolo" class="imagesForOurOffers">
+                    <h2 class="textModelOfCar">Volkswagen Polo</h2>
+                    <h3 class="classCar">Эконом класс</h3>
+                    <h4 class="priceCar">От 1300₽ / сутки</h4>
+                    <button class="buttonForVolkswagenPolo">Забронировать</button>
+                </div>
+                <div class="carsBackground">
+                    <img src="./img/middleImageKiaRio.svg" alt="kiaRio" class="imagesForOurOffers">
+                    <h2 class="textModelOfCar">Kia Rio</h2>
+                    <h3 class="classCar">Эконом класс</h3>
+                    <h4 class="priceCar">От 1400₽ / сутки</h4>
+                    <button class="buttonForKiaRio">Забронировать</button>
+
+                </div>
+                <div class="carsBackground"> 
+                    <img src="./img/middleImageHyundaiSolaris.svg" alt="hyundaiSolaris" class="imagesForOurOffers">
+                    <h2 class="textModelOfCar">Hyundai Solaris</h2>
+                    <h3 class="classCar">Эконом класс</h3>
+                    <h4 class="priceCar">От 1300₽ / сутки</h4>
+                    <button class="buttonForHyundaiSolaris">Забронировать</button>
+                </div>
+            </div>
+            <div class="businessClass">
+                <div class="carsBackground">
+                    <img src="./img/maiddleImageVolkswagenArteon.svg" alt="volkswagenArteon" class="imagesForOurOffers">
+                    <h2 class="textModelOfCar">Volkswagen Arteon</h2>
+                    <h3 class="classCar">Бизнес класс</h3>
+                    <h4 class="priceCar">От 1800₽ / сутки</h4>
+                    <button class="buttonForVolkswagenArteon">Забронировать</button>
+                </div>
+                <div class="carsBackground">
+                    <img src="./img/middleImageBMW_M3.svg" alt="bmwM3" class="imagesForOurOffers">
+                    <h2 class="textModelOfCar">BMW M3</h2>
+                    <h3 class="classCar">Бизнес класс</h3>
+                    <h4 class="priceCar">От 4000₽ / сутки</h4>
+                    <button class="buttonForBmwM3">Забронировать</button>
+
+                    
+                </div>
+                <div class="carsBackground">
+                    <img src="./img/middleImageMercedes_C63_S.svg" alt="mercedesC63S" class="imagesForOurOffers">
+                    <h2 class="textModelOfCar">Mercedes C63 S</h2>
+                    <h3 class="classCar">Бизнес класс</h3>
+                    <h4 class="priceCar">От 4500₽ / сутки</h4>
+                    <button class="buttonForMercedesC63S">Забронировать</button>
+                    
+                </div>
+            </div> -->
+            
+        </section>
+        <section id="rentalConditions">
+            <h2 class="rentalConditionsText">Условия проката</h2>
+            <div class="documentsWrapper">
+                <h3 class="documents">Для того, чтобы арендовать авто Вам необходимо предоставить следующие документы:</h3>
+                <p class="documents">• паспорт гражданина РФ (для иностранцев Загранпаспорт);</p>
+                <p class="documents">• водительское удостоверение;</p>
+                <p class="documents">• для иностранных граждан – документ, подтверждающий право пребывания в стране.</p>
+            </div>
+            <h3 class="treaty">
+                Между арендатором и нашей компанией заключается договор, в котором прописываются условия пользования транспортным средством, права и обязанности сторон. Передача ТС оформляется актом приема передачи.</h3>
+            <div class="кentalRestrictionWrapper">
+                <h3 class="кentalRestriction">Ограничения по прокату:</h3>
+                <p class="кentalRestriction">• Минимальный возраст – 19 лет, если стоимость машины до 2500р/сутки (стаж вождения – от 1 года).</p>
+                <p class="кentalRestriction">• Минимальный возраст – 23 года, если стоимость машины от 2500р/сутки (стаж вождения – от 3 лет).</p>
+            </div>
+            <h3 class="pickUpACar">
+
+                Авто можно забрать в офисе нашей компании или заказать на любой адрес в пределах Москвы и области (услуга платная), в том числе в аэропорт, к гостинице, подъезду и т.д. </h3>
+            <h3 class="delivery">Машина напрокат доставляется в превосходном техническом состоянии, чистая, с полным баком топлива. Если по какой-либо причине вы не можете подъехать в офис или оформляете заявку из другого города, машина будет подана к любому аэропорту или вокзалу. Это позволяет клиенту продолжить передвижение в нужное место без задержки времени.</h3>
+        </section>
+        <!-- <div class="booking">
+            <div class="overTheForm">
+                <img src="./img/bigImageVolsvagenPolo.svg" alt="volkswagenPolo" class="imageForBooking">
+                <img src="./img/clip.svg" alt="clip" class="clip">
+                <div class="car">
+                    <h2 class="carModel">Volksvagen Polo</h2>
+                    <h3 class="classType">Эконом класс</h3>
+                </div>
+            </div>
+            <form>
+                <h2 class="bookingCar">Бронирование автомобиля</h2>
+                <h3 class="filling">Заполните первичную информацию и мы свяжемся с вами для уточнения деталей</h3>
+                <div class="inputsForForm">
+                    <label><input type="text" placeholder="Количество дней аренды" ></label>
+                    
+                    <label>
+                        <input type="text" placeholder="ФИО*" required id="fullName">
+                    </label>
+                    <label class="addressIssue">Выберите адрес пункта выдачи
+                        <select></select>
+                    </label>
+                    
+                    <label>
+                        <input type = "tel" placeholder="Телефон*" >
+                    </label>
+                </div>
+            </form>
+            <h4 class="info">Остальную информацию вы сможете получить от наших менеджеров при встрече в офисе</h4>
+            <button class="buttonForBooking">Забронировать</button> -->
+            
+        </div>
+    </main>
+    <footer>
+        <div class="footerLogoCopyright">
+            <h2 class="footerLogo">AutoGo</h2>
+            <h3 class="copyright">© 2023 Все права защищены</h3>
+        </div>
+        <div class="footerContacts">
+            <h4 class="contacts">Контакты</h4>
+            <h5 class="address">Адрес: г. Москва, ул. Осенняя 23</h5>
+            <div class="emailWrapper">
+                <h2 class="emailWrapperText">Почта: </h2>
+                <a href="mailto:autogo@gmail.com" class="email">autogo@gmail.com</a>
+            </div>
+            <div class="phoneNumberWrapper">
+                <h2 class="phoneNumberWrapperText">Телефон:</h2>
+                <a href="tel:+7 (495)-328-28-28" class="tel">+7 (495)-328-28-28</a>
+            </div>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.5261001288336!2d37.39924779484434!3d55.76673412153673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b548cb2e5123e3%3A0xef61603f4c9a9009!2z0J7RgdC10L3QvdGP0Y8g0YPQuy4sIDIzLCDQnNC-0YHQutCy0LAsIDEyMTYwOQ!5e0!3m2!1sru!2sru!4v1690583084653!5m2!1sru!2sru" width="340" height="231" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
