@@ -1202,8 +1202,23 @@ form{
     font-weight: 400;
     line-height: 20px;
     margin-bottom: 65px;
-    margin-right: 13px;
-    margin-left: 98px;
+    margin-left: 111px;
+}
+
+.input1{
+    width: 418px;
+    height: 28px;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background-color: transparent;
+    outline: none;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 65px;
+    margin-left: 125px;
 }
 
 .input2{
@@ -1239,7 +1254,46 @@ form{
 }
 
 
+.input2::placeholder{
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    font-size: 16px;
+    color: red;
+}
 
+#chosePlace {
+    width: 418.001px;
+    
+    margin-bottom: 100px;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    outline: none;
+    
+    background: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-right: 20px; 
+    background-color: none;
+    border: none; 
+    background-image: url('./img/select.svg ');
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 70px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    margin-left: 98px;
+}
+
+.input3::placeholder{
+    background-image: url("./img/phone.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
 
 ::placeholder{
     color: #000;
@@ -1276,20 +1330,7 @@ form{
     margin-left: 98px;
 }
 
-select{
-    margin-left: 25px;
-    margin-right: 32px;
-    background: none;
-    border: none;
-    -webkit-appearance: none;
-	-moz-appearance: none;
-	-o-appearance: none;
-	appearance: none;
-    background-image: url("./img/select.svg");
-	background-position: 98% center;
-	background-repeat: no-repeat;
-	outline: none;
-}
+
 
 option{
     color: #000;
@@ -1375,3 +1416,36 @@ option{
     margin-left: 156px;
 }
 
+/* .input::placeholder::after{
+    content: '\U+002A';
+    color: red;
+} */
+/* .input::-webkit-input-placeholder::after {
+    content: '\U+002A';
+    color: red;
+    font-weight: bold;
+  }
+  
+.input::-moz-placeholder::after { 
+    content: '\U+002A';
+    color: red;
+    font-weight: bold;
+  }
+  
+.input:-ms-input-placeholder::after { 
+    content: '\U+002A';
+    color: red;
+    font-weight: bold;
+  }
+  
+.input:-moz-placeholder::after { 
+    content: '\U+002A';
+    color: red;
+    font-weight: bold;
+  }
+  
+.input::after { 
+    content: '\U+002A';
+    color: red;
+    font-weight:bold;
+} */
