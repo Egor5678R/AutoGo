@@ -1416,36 +1416,3 @@ option{
     margin-left: 156px;
 }
 
-/* .input::placeholder::after{
-    content: '\U+002A';
-    color: red;
-} */
-/* .input::-webkit-input-placeholder::after {
-    content: '\U+002A';
-    color: red;
-    font-weight: bold;
-  }
-  
-.input::-moz-placeholder::after { 
-    content: '\U+002A';
-    color: red;
-    font-weight: bold;
-  }
-  
-.input:-ms-input-placeholder::after { 
-    content: '\U+002A';
-    color: red;
-    font-weight: bold;
-  }
-  
-.input:-moz-placeholder::after { 
-    content: '\U+002A';
-    color: red;
-    font-weight: bold;
-  }
-  
-.input::after { 
-    content: '\U+002A';
-    color: red;
-    font-weight:bold;
-} */
