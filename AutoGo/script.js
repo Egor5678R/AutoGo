@@ -100,17 +100,20 @@ function showPopUp(product) {
   const inputsForForm = document.createElement("div")
   const label1 = document.createElement("label")
   const label2 = document.createElement("label")
-  const select = document.createElement("select")
   const input1 = document.createElement("input")
   const label3 = document.createElement("label")
   const label4 = document.createElement("label") 
   const input2 = document.createElement("input")
   const input3 = document.createElement("input") 
   const buttonForBooking = document.createElement("button") 
+  const selectElement = document.createElement("select")
+  const defaultOption = document.createElement("option")
+  const option1 = document.createElement("option")
+  const option2 = document.createElement("option")
   input1.type = "number" 
   input2.type = "text" 
   input3.type = "tel" 
-  input1.placeholder = "Количество дней аренды"; 
+  input1.placeholder = "Количество дней аренды"
   input2.placeholder = "ФИО*" 
   input3.placeholder = "Телефон*" 
   input2.required 
@@ -131,12 +134,26 @@ function showPopUp(product) {
   input1.classList.add("input")
   input2.classList.add("input")
   input2.classList.add("required") 
-  input3.classList.add("input")
+  input3.classList.add("input1")
   input3.classList.add("required") 
   label1.classList.add("label")
   label2.classList.add("addressIssue") 
   label3.classList.add("label")
   label4.classList.add("label")
+  selectElement.name = "chosePlace"
+  selectElement.id = "chosePlace"
+
+  defaultOption.value = "hey"
+  defaultOption.innerText = "Выберите адрес пункта выдачи"
+  selectElement.appendChild(defaultOption)
+
+  option1.value = "hey"
+  option1.innerText = "г. Москва, ул. Осенняя 23"
+  selectElement.appendChild(option1)
+
+  option2.value = "hey"
+  option2.innerText = "Адрес 2"
+  selectElement.appendChild(option2)
   
   buttonForBooking.textContent = "Забронировать" 
   closeButton.textContent = "×"
@@ -157,10 +174,7 @@ function showPopUp(product) {
   inputsForForm.appendChild(input1) 
   inputsForForm.appendChild(label3)
   inputsForForm.appendChild(input2)
-  
-  inputsForForm.appendChild(label2)
-  inputsForForm.appendChild(select)
-  label4.style.marginLeft = "10pxW"
+  inputsForForm.appendChild(selectElement)
   inputsForForm.appendChild(label4)
   inputsForForm.appendChild(input3)
    
